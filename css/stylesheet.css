@@ -1,0 +1,63 @@
+html, body {
+	overflow-x: hidden;
+}
+
+.main {
+	margin: 20px 30px;
+}
+
+input[type="text"] {
+	display: inline-block;
+	width: 120px;
+	height: 40px;
+	font-size: 18px !important;
+	border: 1px solid #E8E8E8;
+	border-radius: 2px;
+	text-align: center;
+}
+
+input[type="text"]:focus {
+	border-color: #6A9FDB;
+	outline: 0;
+	transition: 0.3s ease-out;
+}
+
+table {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td, th {
+	padding: 5px 10px !important;
+	text-align: center !important;
+}
+
+tfoot tr td {
+	padding-top: 25px !important;
+}
+
+.input_area {
+	height: 50px;
+	vertical-align: middle;
+}
+
+.times {
+	font-size: 18px;
+}
+
+#add_cut {
+	width: 100%;
+}
+
+.stick {
+	font-weight: bold;
+	color: #fff;
+	background-color: #8d6e63;
+	padding: 2px 6px;
+	border-radius: 2px;
+}
+
+.results {
+	display: none;
+}

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+ 	<meta charset="utf-8">
+ 
+ 	<title>Ai Front End Challenge</title>
+ 
+ 	<link rel="stylesheet" href="css/stylesheet.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+<div class="row">
+	<div class="main col-md-4 col-md-offset-4 text-center">
+		<h2>Lumber Calculator</h2>
+		<br>
+		<table class="lumber_calc">
+		<thead>
+			<tr>
+				<th>Length (inches)</th>
+				<th></th>
+				<th>Quantity</th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody id="input_area">
+			<tr>
+				<td><input class="length" type="text" maxlength="6"/></td>
+				<td><span class="times">X</span></td>
+				<td><input class="quantity" type="text" maxlength="6"/></td>
+				<td><button class="btn btn-danger remove">Remove</button></td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td><button id="add_cut" class="btn btn-primary">Add Cut</button></td>
+				<td></td>
+				<td></td>
+				<td><button id="calculate" class="btn btn-success">Calculate</button></td>
+			</tr>
+		</tfoot>
+		</table>
+		<div class="warning"></div>
+	</div>
+	<div class="results col-md-4 col-md-offset-4">
+		<h2 class="text-left">Results</h2><hr>
+		<p><span id="scrap"></span></p>
+	</div>
+</div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
